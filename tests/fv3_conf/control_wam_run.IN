@@ -1,7 +1,7 @@
 if [ $WARM_START = .false. ]; then
   mkdir INPUT RESTART
-  cp -r /scratch3/NCEPDEV/swpc/Svetlana.Karol/save/FV3WAM_C96_L196/INPUT/* ./INPUT/.
- cp  /scratch3/NCEPDEV/swpc/Svetlana.Karol/FV3WAM_V2_INPUT/* ./
+  cp -r /glade/campaign/univ/ucub0172/INPUT/* ./INPUT/.
+  cp  /glade/campaign/univ/ucub0172/FV3WAM_V2_INPUT/* ./
 else
   mkdir INPUT RESTART
   CURRDIR=`pwd`
